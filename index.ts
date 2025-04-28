@@ -1,8 +1,8 @@
 import express, { Request, Response } from "express";
 import * as dotenv from "dotenv";
 import cors from "cors";
-import { dbConnection } from "./src/connection/dbConnention";
-import router from "./src/routes/route";
+import { dbConnection } from "./src/connection/dbConnection.js";
+import router from "./src/routes/route.js";
 
 dotenv.config();
 const app = express();
